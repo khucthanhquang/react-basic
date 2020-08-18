@@ -1,17 +1,19 @@
+import firebase from 'firebase';
+import { MDBModal, MDBModalHeader, MDBModalBody, MDBModalFooter, MDBBreadcrumb, MDBBreadcrumbItem, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardText, MDBCardTitle, MDBCol, MDBIcon, MDBJumbotron, MDBRow } from "mdbreact";
 import React, { useEffect, useState } from 'react';
-import { MDBBreadcrumb, MDBBreadcrumbItem, MDBJumbotron } from "mdbreact";
-import { MDBContainer, MDBRow, MDBIcon, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from "mdbreact";
-import { useSelector } from 'react-redux';
-import { useParams, Link, useHistory } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { useHistory, useParams } from 'react-router-dom';
 import apiRequestCategories from '../../../api/categoriesApi';
+import { updateAcount } from '../../Auth/authSlice'
 
 
 function DetailPhoto(props) {
-
     const photoData = useSelector(state => state.photo.photos);
     const [nearPhoto, setNearPhoto] = useState([]);
     const { id } = useParams();
     const history = useHistory();
+    const dispatch = useDispatch();
+    const [modal, setModal] = useState(false);
 
     const currentPhoto = photoData.find(photo => photo.id == id);
 
@@ -35,8 +37,68 @@ function DetailPhoto(props) {
         history.push(`/photo/${id}`);
     }
 
+    // Check login before dowload
+
+    const myAcount = useSelector(state => state.auth.user);
+
+    function CheckLogin(link) {
+        if (firebase.auth().currentUser == null) {
+            let cf = window.confirm('Để tải về máy bạn cần đăng nhập?')
+            if (cf) {
+                history.push('/login');
+            }
+        } else {
+            setModal(!modal);
+        }
+    }
+    function FinishCheckOut(link) {
+        const newMyAcount = { ...myAcount };
+        const newAmount = Number(newMyAcount.amount) - Number(currentPhoto.price);
+
+        newMyAcount.amount = newAmount;
+
+        // Tạo thêm 1 obj để lưu lịch sử
+        const objHistory = {
+            detail: `Bạn vừa mua thành công ảnh với giá ${currentPhoto.price} vnđ`,
+            usersId: newMyAcount.id
+        }
+        setTimeout(() => {
+            if (dispatch(updateAcount(objHistory, newMyAcount))) {
+                alert('Thành Công !');
+                setModal(!modal);
+                var element = document.createElement("a");
+                var file = new Blob(
+                    [
+                        link
+                    ],
+                    { type: "image/*" }
+                );
+                element.href = URL.createObjectURL(file);
+                element.download = `image${Math.trunc(Math.random() * 100000)}.jpg`;
+                element.click();
+            }
+        }, 500);
+
+    }
+
     return (
         <div className="container">
+
+            {/* MODAL THANH TOÁN */}
+
+            <MDBModal isOpen={modal} toggle={CheckLogin}>
+                <MDBModalHeader toggle={CheckLogin}>Thông tin tải xuống</MDBModalHeader>
+                <MDBModalBody>
+                    <MDBBtn color="primary" size="sm">Số dư: {Number(myAcount.amount).toLocaleString('en-US', { style: 'currency', currency: 'VND' })}</MDBBtn> -
+                    <MDBBtn color="primary" size="sm">Đơn giá: {Number(currentPhoto.price).toLocaleString('en-US', { style: 'currency', currency: 'VND' })}</MDBBtn> =
+                    <MDBBtn color="danger" size="sm">Còn lại: {Number(myAcount.amount - currentPhoto.price).toLocaleString('en-US', { style: 'currency', currency: 'VND' })}</MDBBtn>
+                </MDBModalBody>
+                <MDBModalFooter>
+                    <MDBBtn color="success" onClick={FinishCheckOut}>Thanh toán</MDBBtn>
+                </MDBModalFooter>
+            </MDBModal>
+
+
 
             <MDBBreadcrumb light style={{ backgroundColor: '#2BBBAD', color: '#fff' }}>
                 <MDBBreadcrumbItem iconRegular icon="star">Home</MDBBreadcrumbItem>
@@ -75,7 +137,8 @@ function DetailPhoto(props) {
                             <small>{currentPhoto.detail}.</small>
                         </p>
                         <hr className="my-2" />
-                        <MDBBtn size="md" download={currentPhoto.image} href="#">Tải về ngay<MDBIcon icon="cloud-download-alt" className="ml-2" /></MDBBtn>
+
+                        <MDBBtn size="md" onClick={() => CheckLogin(currentPhoto.image)}>Tải về ngay<MDBIcon icon="cloud-download-alt" className="ml-2" /></MDBBtn>
                     </MDBJumbotron>
                 </div>
             </div>

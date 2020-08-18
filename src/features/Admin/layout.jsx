@@ -1,6 +1,9 @@
 import React, { Suspense, useEffect } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import './layout.css';
+import firebase from 'firebase';
+import { useHistory } from "react-router-dom";
+
 
 import Header from '../../components/Admin/Header';
 import SideBar from '../../components/Admin/SideBar';
@@ -26,6 +29,7 @@ const Posts = React.lazy(() => import('./Posts'));
 
 
 function LayoutAdmin(props) {
+    const history = useHistory();
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -48,14 +52,27 @@ function LayoutAdmin(props) {
         }
         getPostCategories()
     })
-    
+
     useEffect(() => {
         const getPost = async () => {
             await dispatch(fetchPosts())
         }
         getPost()
     })
-
+    // Check login
+    useEffect(() => {
+        const unregisterAuthObserver = firebase.auth().onAuthStateChanged(async (user) => {
+            if (!user) {
+                console.log("User not login !")
+                // user log out, handle something here
+                return;
+            }
+            if (user.email !== "quangktph07731@fpt.edu.vn") {
+                history.push('/');
+            };
+        })
+        return () => unregisterAuthObserver();
+    }, [])
     return (
         <div className="sidebar-mini layout-fixed" >
             <div className="wrapper">

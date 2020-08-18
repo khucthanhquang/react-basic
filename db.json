@@ -197,69 +197,52 @@
   ],
   "users": [
     {
-      "email": "admin",
-      "password": "admin",
-      "fullname": "Khúc Thành Quang",
-      "avatar": "https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg",
-      "access": "Administrator",
-      "id": 4
+      "email": "quangktph07731@fpt.edu.vn",
+      "displayName": "Khuc Thanh Quang Fpoly HN",
+      "amount": 550000,
+      "id": "f8HemSe"
+    },
+    {
+      "email": "khucquang2112@gmail.com",
+      "displayName": "Thành Quang",
+      "amount": 875000,
+      "id": "Lod4HxA"
     }
   ],
-  "contact": [
+  "history": [
     {
-      "guestName": "Quang Khuc",
-      "email": "quangktph07731@fpt.edu.com",
-      "tittle": "tiêu đề 1",
-      "detail": "Khong có j cả",
+      "detail": "Bạn vừa nạp thành công thẻ nạp mệnh giá 50000 vnđ",
+      "usersId": "f8HemSe",
       "id": 1
     },
     {
-      "guestName": "Hoàng hương Giang",
-      "email": "giang@gmail.com",
-      "tittle": "tiêu đề 1",
-      "detail": "adaadada",
+      "detail": "Bạn vừa nạp thành công thẻ nạp mệnh giá 500000 vnđ",
+      "usersId": "f8HemSe",
       "id": 2
-    }
-  ],
-  "thanhtoan": [
+    },
     {
-      "guestName": "Khúc Quang",
-      "address": "ada",
-      "note": "ada",
-      "detailCart": "-----[* MẮT CÁ NGỪ ĐẠI DƯƠNG - ĐẶC SẢN PHÚ YÊN - 1 x 100000 VNĐ ] ----------[* BẮP CẢI TÍM ĐÀ LẠT - 1 x 55000 VNĐ ] -----",
-      "tong": 205000,
+      "detail": "Bạn vừa nạp thành công thẻ nạp mệnh giá 200000 vnđ",
+      "usersId": "Lod4HxA",
       "id": 3
     },
     {
-      "guestName": "quang",
-      "address": "s",
-      "note": "s",
-      "detailCart": "-----[* CAM KHE MÂY VIETGAP TÚI 1KG - 1 x 68000 VNĐ ] -----",
-      "tong": 118000,
+      "detail": "Bạn vừa nạp thành công thẻ nạp mệnh giá 50000 vnđ",
+      "usersId": "Lod4HxA",
       "id": 4
     },
     {
-      "guestName": "Khúc Quang",
-      "address": "adadaaada",
-      "note": "adaada",
-      "detailCart": "-----[* MĂNG CỤT VIETGAP TÚI 1KG - 2 x 85000 VNĐ ] -----",
-      "tong": 135000,
+      "detail": "Bạn vừa mua thành công ảnh với giá 30000 vnđ",
+      "usersId": "Lod4HxA",
       "id": 5
     },
     {
-      "guestName": "khúc thành quang",
-      "address": "hà nội",
-      "note": "adaada",
-      "detailCart": "-----[* MẮT CÁ NGỪ ĐẠI DƯƠNG - ĐẶC SẢN NHẬT BẢN - 2 x 100000 VNĐ ] -----",
-      "tong": 150000,
+      "detail": "Bạn vừa mua thành công ảnh với giá 30000 vnđ",
+      "usersId": "Lod4HxA",
       "id": 6
     },
     {
-      "guestName": "Khúc Quang",
-      "address": "ada",
-      "note": "àa",
-      "detailCart": "-----[* GẠO HỮU CƠ ONG BIỂN – THANH XUÂN LÀ SỨC KHỎE - 1 x 56000 VNĐ ] -----",
-      "tong": 106000,
+      "detail": "Bạn vừa mua thành công ảnh với giá 15000 vnđ",
+      "usersId": "Lod4HxA",
       "id": 7
     }
   ]

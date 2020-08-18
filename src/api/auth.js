@@ -11,6 +11,9 @@ const get = id => {
 const create = data => {
     return http.post("/users", data);
 };
+const createHistory = data => {
+    return http.post("/history", data);
+};
 
 const update = (id, data) => {
     return http.put(`/users/${id}`, data);
@@ -27,4 +30,5 @@ export default {
     create,
     update,
     remove,
+    createHistory
 };
