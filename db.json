@@ -1,0 +1,234 @@
+{
+  "category": [
+    {
+      "id": 2,
+      "nameCategory": "Bộ ảnh troll 1",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596740843/react-category-photo/received_251494805566204_d3q2gj.png",
+      "descCategory": "Những bức ảnh troll tổng hợp"
+    },
+    {
+      "id": 5,
+      "nameCategory": "Bộ ảnh troll 2",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584096/react-category-photo/received_105639537042043_mbzb0p.jpg",
+      "descCategory": "Những bức ảnh troll tổng hợp 2"
+    },
+    {
+      "id": 6,
+      "nameCategory": "Bộ ảnh troll 3",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584148/react-category-photo/received_813368332155600_ialbie.jpg",
+      "descCategory": "Những bức ảnh troll tổng hợp 3"
+    },
+    {
+      "id": 7,
+      "nameCategory": "Bộ ảnh troll 4",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584195/react-category-photo/received_249232539096533_tuh9e9.jpg",
+      "descCategory": "Những bức ảnh troll tổng hợp 5"
+    },
+    {
+      "nameCategory": "danh mục test",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597023399/react-category-photo/received_706916316359165_nnkfix.png",
+      "descCategory": "Những bức ảnh đẹp của teen 18+",
+      "id": 8
+    }
+  ],
+  "photo": [
+    {
+      "id": 1,
+      "namePhoto": "Ảnh troll 1",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596583456/react-category-photo/received_484952018687129_klq6ii.jpg",
+      "author": "thanhquang",
+      "price": 35000,
+      "desc": "Thật buồn cười",
+      "detail": "Bộ ảnh Troll Comment Facebook bá đạo nhất",
+      "categoryId": "2"
+    },
+    {
+      "id": 2,
+      "namePhoto": "Ảnh troll 2",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596583571/react-category-photo/received_706916316359165_o6dcjv.png",
+      "author": "thanhquang",
+      "price": 30000,
+      "desc": "Chả có gì để nói",
+      "detail": "Bộ ảnh Troll Comment Facebook bá đạo nhất",
+      "categoryId": "6"
+    },
+    {
+      "id": 6,
+      "namePhoto": "Mèo con tinh nghịch",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528586/react-category-photo/71092321_1308887659272853_510965082314768384_n_wrrgmx.jpg",
+      "author": "thanhquang",
+      "price": 15000,
+      "desc": "Mèo con vui vẻ",
+      "detail": "Những chú mèo troll cực vui",
+      "categoryId": "5"
+    },
+    {
+      "id": 8,
+      "namePhoto": "Đoán xem",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528664/react-category-photo/received_251494805566204_lqtp0u.png",
+      "author": "danhptt",
+      "price": 20000,
+      "desc": "Đoán xem tui đang làm gì",
+      "detail": "Một chú chó thật hài hước",
+      "categoryId": "2"
+    },
+    {
+      "id": 9,
+      "namePhoto": "Anh bạn này bị sao ta :v",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528681/react-category-photo/received_327061084682363_pzp8hu.png",
+      "author": "huykt",
+      "price": 25000,
+      "desc": "Ảnh troll bạn cùng phòng",
+      "detail": "Anh bạn này bị sao đây ta ?",
+      "categoryId": "2"
+    },
+    {
+      "namePhoto": "Photo test",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597018838/react-category-photo/received_855517784607321_eelva7.jpg",
+      "categoryId": "7",
+      "author": "thanhquang",
+      "price": 30000,
+      "desc": "Không có gì mô tả ha",
+      "detail": "Chi tiết ảnh này",
+      "id": 10
+    },
+    {
+      "namePhoto": "photo test",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597023427/react-category-photo/received_335254533797040_auwldy.jpg",
+      "categoryId": "8",
+      "author": "thanhquang",
+      "price": 20000,
+      "desc": "ưqe",
+      "detail": "qeqeq",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "namePhoto": "Photo test",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597630688/react-category-photo/1_ecnwhn.png",
+      "author": "thanhquang",
+      "price": 60000,
+      "desc": "sadasđa",
+      "detail": "adad",
+      "categoryId": "7"
+    }
+  ],
+  "post_category": [
+    {
+      "id": 2,
+      "nameCategory": "Danh mục bài viết 1",
+      "descCategory": "Những bức ảnh troll tổng hợp"
+    },
+    {
+      "nameCategory": "Danh mục bài viết 2",
+      "descCategory": "không mô tả",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "tittle": "Tiếp sức mùa thi THPT Quốc gia 2020, nữ sinh Nghệ An “gây bão” vì quá xinh",
+      "post_categoryId": "2",
+      "desc": "Sở hữu vẻ đẹp trong veo, nữ sinh Nghệ An khiến dân mạng không thể rời mắt.",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597131772/react-category-photo/anh-2-1597115928-666-width660height495_lgvxaa.jpg",
+      "published": "2020-8-11 15:18:17",
+      "content": "<h1 style=\"margin-left:0px;\"><span style=\"color: initial;background-color: rgb(255,255,255);font-size: 27px;font-family: Arial, Helvetica, sans-serif;\">Tiếp sức mùa thi THPT Quốc gia 2020, nữ sinh Nghệ An “gây bão” vì quá xinh</span></h1>\n<p style=\"text-align:start;\"><span style=\"color: rgb(153,153,153);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Thứ Ba, ngày 11/08/2020 11:37 AM (GMT+7)</span></p>\n<p style=\"text-align:start;\"></p>\n<p style=\"text-align:right;\"><br>&nbsp;</p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/anh-1-1597115891-999-width660height990.jpg\" alt=\"Tiếp sức mùa thi THPT Quốc gia 2020, nữ sinh Nghệ An “gây bão” vì quá xinh - 1\" style=\"height: 990px;width: 660px\"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Hình ảnh của Hồng Nhung tại điểm thi thu hút sự quan tâm của dân mạng (ảnh: Hoàng Za)</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Hình ảnh nữ tình nguyện viên tiếp sức mùa thi được đăng tải trên Fanpage của huyện Anh Sơn (Nghệ An) thu hút hàng nghìn lượt thích và được dân mạng chia sẻ chóng mặt trong những ngày diễn ra kỳ thi THPT Quốc gia 2020.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Sở hữu gương mặt bầu bĩnh, vẻ đẹp trong veo, dù ăn vận đơn giản, tóc buộc cao gọn gàng, cô gái vẫn thu hút mọi ánh nhìn. Danh tính của cô nàng nhanh chóng được tìm ra, đó là Nguyễn Thị Hồng Nhung (sinh năm 2003, hiện là học sinh trường THPT Anh Sơn 2, Nghệ An).</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/anh-2-1597115928-666-width660height495.jpg\" alt=\"Tiếp sức mùa thi THPT Quốc gia 2020, nữ sinh Nghệ An “gây bão” vì quá xinh - 2\" style=\"height: 495px;width: 660px\"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Cô nàng rất bất ngờ về sự nổi tiếng bất thình lình này</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Nhung cho hay, loạt ảnh trên được chụp khi cô tham gia tiếp sức mùa thi tại điểm thi trường THPT Anh sơn 2, Nghệ An trong ngày thi đầu tiên. Cô khá bất ngờ khi hình ảnh của mình được đông đảo dân mạng biết đến và chia sẻ.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>“Thú thật, lúc anh nhiếp ảnh bấm máy mình có biết nên biểu cảm khuôn mặt khá nhí nhố. Không ngờ, loạt ảnh ấy vẫn được mọi người yêu mến. Mình rất vui vì sự quan tâm này”,</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Hồng Nhung chia sẻ.</span>&nbsp;</p>\n",
+      "id": 1
+    },
+    {
+      "tittle": "Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597131840/react-category-photo/2_mtwuoy.jpg",
+      "post_categoryId": "3",
+      "desc": "“Rap Việt” - chương trình truyền hình thực tế tìm kiếm các tài năng về rap “gây bão” sau tập đầu tiên lên sóng.",
+      "published": "2020-8-11 14:44:35",
+      "content": "<h1 style=\"margin-left:0px;\"><span style=\"color: initial;background-color: rgb(255,255,255);font-size: 27px;font-family: Arial, Helvetica, sans-serif;\">Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe</span></h1>\n<p style=\"text-align:start;\"><span style=\"color: rgb(153,153,153);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Thứ Ba, ngày 11/08/2020 10:55 AM (GMT+7)</span></p>\n<p style=\"text-align:start;\"></p>\n<a href=\"http://www.facebook.com/fan24h\" target=\"_blank\">undefined</a>\n<p></p>\n<h2 style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Bên cạnh các tên tuổi lớn, nữ DJ xinh đẹp chơi nhạc trong “Rap Việt” cũng nhận được sự chú ý.</span></h2>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Sự kiện:</span> <a href=\"https://www.24h.com.vn/sao-va-nhung-tai-nan-bat-ngo-c73e1480.html\" target=\"_self\"><span style=\"color: rgb(55,139,54);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><ins>Sao và những tai nạn bất ngờ</ins></span></a></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>“Rap Việt”</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">- chương trình truyền hình thực tế tìm kiếm các tài năng về rap “gây bão” sau tập đầu tiên lên sóng. Show được dẫn dắt bởi MC Trấn Thành, quy tụ dàn huấn luyện viên nổi tiếng như Suboi, Wowy, Karik, Binz cùng hai giám khảo JustaTee và Rhymastic. Ngoài những tên tuổi lớn, nữ DJ xinh đẹp đứng trên bục cao nhất của chương trình cũng nhận được sự quan tâm của khán giả.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Theo tìm hiểu của chúng tôi, nữ DJ đó là Mie - Quán quân</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Miss DJ 2015\"</em>. Trong chương trình, DJ Mie đảm nhận vai trò hỗ trợ thí sinh. Những giai điệu sôi động của DJ sinh năm 1995 cũng góp thêm sự bùng cháy cho sàn đấu âm nhạc.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/110476299_144703250605462_8041468517300438404_o-1597117271-625-width960height753.jpg\" alt=\"Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe - 1\" style=\"height: ;width: 660px\"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>DJ Mie trong show “Rap Việt”</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">DJ Mie cho biết cô tên thật là Trương Tiểu My, quê Đà Nẵng. Nhờ gương mặt xinh xắn, 9x còn được khán giả và đồng nghiệp phong là \"Hoa hậu DJ\".</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Học hết cấp 3, Tiểu My thi vào trường cao đẳng Múa Việt Nam. Cô nhớ lại, trong một lần đi show diễn cho DJ Lê Trình, cô biên đạo và biểu diễn bài</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>“Love you and love me”.</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Sau một thời gian cả hai làm việc chung, 9x biết đến và hiểu hơn về nghề DJ.</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Tôi không còn những định kiến xấu về nghề \"quay đĩa\". Anh ấy ngỏ lời nhận tôi làm học trò. Sau đó, tôi đồng ý và theo đuổi DJ\".</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Những góc khuất, mặt trái của nghề chỉ xuất hiện khi Tiểu My đến làm việc ở quán bar mới. Cô kể:</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Sau buổi diễn, khi ra về, tôi bị người lạ đi theo xô ngã xe, chân tay bị trầy trụa, vừa đau vừa buồn nên phải về quê 1 tháng điều trị vết thương. Thậm chí khi bình phục, chân tôi còn để lại vết sẹo lớn\".</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Thất thần với sự việc, nhưng cô gái sinh năm 1995 quan niệm, việc gì cũng có hai mặt, quan trọng là mình biết phấn đấu, đối diện và vượt qua.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/11-1511947068-width650height650-1597117271-117-width650height650.jpg\" alt=\"Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe - 2\" style=\"height: ;width: 660px\"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Ngày đầu đi làm DJ, Mie từng bị người lạ đạp ngã xe</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Không nản chí, Tiểu My tiếp tục quay lại Sài Gòn làm việc. Cô xin chơi nhạc tại các quán bar, pub... Lần này, nữ DJ may mắn và công việc thuận lợi hơn khi gặp những đồng nghiệp tốt bụng, tận tình giúp đỡ.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Từ khi kiếm được những đồng tiền do chính sức lao động của mình, Tiểu My cảm thấy thực sự hạnh phúc và hiểu được giá trị của cuộc sống. Cô cho biết, bản thân muốn lo cho gia đình nhiều hơn, nhưng bố đã quy y, nên 9x luôn cố gắng sống tốt để không uổng công sinh thành của bố mẹ.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Dòng nhạc sở trường của Mieô là EDM. Về lĩnh vực đang theo đuổi, Tiểu My nhận định, nghề DJ có nhiều định kiến xấu, cám dỗ và cả bệnh tật đi kèm. Tuy nhiên, cô sẵn sàng theo đuổi vì đam mê vì mưu sinh.</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Tôi càng phải cố gắng khẳng định rằng không phải ai cũng đều sa ngã khi làm nghề này, đều là do bản thân mình cả, biết chừng mực, phân biệt đúng sai, chuyện gì cũng có thể vượt qua\"</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">- cô nhấn mạnh.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/01-1511947068-width650height994-1597117271-241-width477height729.jpg\" alt=\"Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe - 3\" style=\"height: ;width: 660px\"/>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-11/04-1511947068-width650height423-1597117271-140-width477height310.jpg\" alt=\"Nữ DJ nóng bỏng đứng trên bục cao nhất của “Rap Việt” từng bị người lạ đạp ngã xe - 4\" style=\"height: ;width: 660px\"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Vẻ nóng bỏng của DJ sinh năm 1995</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Theo cô gái Đà Nẵng, nghề DJ đang có sức hút rất lớn với giới trẻ và đặc biệt là phái nữ. Cô cho biết, đôi lúc một vài bạn chỉ học sơ sài rồi lên đứng trên bàn mix ăn mặc hở hang, nhảy múa thác loạn. Chính việc này, khiến nghề DJ càng gây ấn tượng xấu với xã hội.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Trò chuyện với chúng tôi, quán quân Miss DJ 2015 không ngại chia sẻ, cát-xê những DJ chưa có tên tuổi bây giờ còn thua cả 1 vũ công múa đám cưới. Cô nói thêm, cạnh tranh trong nghề là không tránh khỏi. Có những lúc người đánh nhạc xong rồi chỉnh và rút dây trên bàn mix để người sau bị sự cố...</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Sau đăng quang</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Miss DJ\" 2015</em>, Mie tham gia các sân chơi khác như</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>\"Tài năng DJ\", \"The remix\" 2017</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">và hiện là</span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>“Rap Việt”.</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Từ các cuộc thi này, cô tạo được nhiều bản hit được khán giả biết đến.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Mỗi tháng DJ sinh năm 1995 nhận từ 10-15 show diễn trong và ngoài nước. Cô tiết lộ thu nhập đủ để bản thân trang trải cuộc sống<em>. \"Tôi trích 70% thu nhập để đầu tư máy móc hỗ trợ trong công việc\",</em></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">cô nói.</span>&nbsp;</p>\n",
+      "id": 2
+    },
+    {
+      "tittle": "Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…)",
+      "post_categoryId": "3",
+      "desc": "Với phái mạnh nói chung thì áo sơ mi là tuyên ngôn của phong cách, giúp tạo nên cái tôi khác biệt",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597132009/react-category-photo/3_dvkwsq.jpg",
+      "published": "2020-8-11 15:19:35",
+      "content": "<h1 style=\"margin-left:0px;\"><span style=\"color: initial;background-color: rgb(255,255,255);font-size: 27px;font-family: Arial, Helvetica, sans-serif;\">Quý ông nào cũng cần suit xanh và cách phối nó với đủ màu sơ mi, cà vạt</span></h1>\n<p style=\"text-align:start;\"><span style=\"color: rgb(153,153,153);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Thứ Bảy, ngày 11/04/2020 18:44 PM (GMT+7)</span><br>&nbsp;</p>\n<h2><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Với phái mạnh nói chung thì áo sơ mi là tuyên ngôn của phong cách, giúp tạo nên cái tôi khác biệt. Nhưng với doanh nhân, sơ mi còn là biểu tượng cho sự lịch lãm và quyền năng, là “vũ khí ngầm” đứng sau thành công trong mọi thương vụ hợp tác, kinh doanh!</span></h2>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-1-1597043964-302-width660height440.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 1\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Phong cách cá nhân rất quan trọng trong các cuộc thương thảo của doanh nhân</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><strong>1. Vai trò của áo sơ mi với nam doanh nhân</strong></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Không phải ngẫu nhiên mà các CEO đứng đầu các thương hiệu nổi tiếng thế giới như: Jeff Bezos (Amazon); Mark Zuckerberg (Facebook); Jack Ma (Alibaba), Steve Job (Apple)… chú trọng trong việc lựa chọn phong cách ăn mặc, đặc biệt là</span> <a href=\"https://tqq.com.vn/ao-so-mi-nam/\" target=\"_blank\"><span style=\"color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">áo sơ mi nam</span></a><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">. Bởi điều này sẽ ảnh hưởng, thậm chí còn có thể làm thay đổi sự liên hệ, tương tác giữa các thành viên trong một cuộc gặp gỡ. Phong cách riêng sẽ giúp họ tự tin, thoải mái và làm chủ được mọi thương vụ.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Bên cạnh đó, giá trị bộ trang phục góp phần thể hiện vị thế và đẳng cấp của người mặc. Thông thường, giá trị bộ quần áo CEO đang mặc càng đắt giá thì vị trí của CEO đó càng cao trong mắt người đối diện. Người ta tính giá trị dựa trên chất liệu, độ hiếm, tần suất xuất hiện và kiểu dáng của trang phục.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-2-1597043964-621-width660height660.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 2\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Áo sơ mi thể hiện vị thế và đẳng cấp của người mặc</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Những chiếc áo sơ mi còn là phương tiện giới thiệu về bản thân đầy tinh tế, thể hiện 1 phần tính cách, sở thích và gu thẩm mỹ của người mặc. Vì vậy, áo sơ mi của doanh nhân cần được chọn lựa kỹ lưỡng để thể hiện sự chỉn chu, chuyên nghiệp nhưng không quá phô trương, tạo dựng lòng tin đối với mọi người</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><strong>2. Cách chọn áo sơ mi xứng tầm đẳng cấp mà doanh nhân “phải” biết</strong></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><strong>2.1 Chất liệu vải</strong></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Chất liệu vải là yếu tố quan trọng hàng đầu khi chọn những mẫu</span> <a href=\"https://tqq.com.vn/ao-so-mi-nam/cao-cap/\" target=\"_blank\"><span style=\"color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">áo sơ mi nam cao cấp</span></a> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">cho doanh nhân. Do đặc điểm công việc thường xuyên phải gặp gỡ đối tác, xuất hiện trước mắt nhân viên… nên chiếc áo sơ mi cho doanh nhân phải đáp ứng các tiêu chí: chất liệu cao cấp, thoáng mát, màu sắc bền đẹp, chống nhăn hiệu quả. Qua đó, người mặc sẽ tự tin, thoải mái trong dáng vẻ chỉn chu, chuyên nghiệp suốt cả ngày dài.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-6-1597044076-294-width660height276.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 3\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Sự tinh tế nằm ở chất liệu vải... </em></span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-7-1597044076-408-width660height328.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 4\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>...hay những họa tiết, đường kẻ thanh – nhỏ trên trang phục</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><strong>2.2 Màu sắc, họa tiết áo</strong></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Màu sắc, họa tiết áo là yếu tố đầu tiên thu hút ánh nhìn của người đối diện. Sơ mi có thiết kế và màu sắc cơ bản sẽ giúp nam doanh nhân xây dựng được phong cách thời trang giản dị mà tinh tế, dễ lấy được thiện cảm với mọi người xung quanh.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-4-1597043964-193-width660height515.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 5\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Chọn áo sơ mi cho CEO nên chọn s sơ mi có màu sắc cơ bản: xanh, trắng, xám, ghi…</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">2 tone màu nên tham khảo khi chọn áo sơ mi cho doanh nhân là: tone màu sáng, lạnh (xanh nhạt, trắng, xám ghi…) và tone màu tối, trầm (đen, xám đen, xanh đen, xanh coban…). Cần tránh những màu sắc họa tiết quá nổi bật, phô trương như màu đỏ, hồng cam... họa tiết hoa lá, 3D... không phù hợp với hình tượng chỉn chu, lịch thiệp cần có của doanh nhân.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><strong>2.3 Form áo và đường may áo</strong></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Một điểm quan trọng nữa không thể bỏ qua khi chọn áo sơ mi cho doanh nhân là form áo và đường may áo. Áo sơ mi cho doanh nhân cần phải có đường may sắc sảo, chắc chắn, kiểu dáng cơ bản tinh tế với những đường cong vừa phải nhấn mạnh vẻ nam tính, lịch lãm. Doanh nhân nên chọn Form áo Classic fit hoặc Slim fit, đây là 2 form áo mang đến sự thoải mái, đĩnh đạc, đồng thời che khuyết điểm cơ thể hiệu quả.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-10/Cach-chon-so-mi-cua-tang-lop-CEO-CEO-CFO-COO-so-mi-5-1597043964-969-width660height514.jpg\" alt=\"Cách chọn sơ mi của “tầng lớp” CEO (CEO, CFO, COO…) - 6\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Form áo cơ bản hơi ôm nhẹ là ưu tiên hàng đầu dành cho quý ông thành đạt</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Có 3 sai lầm trong phong cách ăn mặc mà doanh nhân không bao giờ được phép mắc phải đó là: Chạy theo thời trang một cách quá nhiệt tình; Tự đề cao sự hấp dẫn của bản thân; Cho phép nguồn gốc xuất thân ảnh hưởng đến phong cách ăn mặc!</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Đứng đầu những thương hiệu sản xuất áo sơ mi nam, TQQ là điểm đến hàng đầu cho phong cách doanh nhân Việt. Với thiết kế tinh tế, chất liệu cao cấp, trải qua công đoạn cắt may tỉ mỉ, những mẫu áo sơ mi của TQQ sẽ giúp các quý ông sở hữu diện mạo hoàn hảo, là người bạn đồng hành tin cậy cho những thương vụ thành công!</span>&nbsp;</p>\n",
+      "id": 3
+    },
+    {
+      "tittle": "\"Quỳnh búp bê\" Phương Oanh ra sao sau tuyên bố tạm dừng đóng phim?",
+      "post_categoryId": "3",
+      "desc": "Phương Oanh tạo dấu ấn với vai diễn chính trong \"Quỳnh búp bê\". Kế đó, cô hóa thân thành một cô giáo thôn quê trong \"Cô gái nhà người ta\"",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597132136/react-category-photo/4_bzzavb.jpg",
+      "published": "2020-8-11 15:20:13",
+      "content": "<h1 style=\"margin-left:0px;\"><span style=\"color: initial;background-color: rgb(255,255,255);font-size: 27px;font-family: Arial, Helvetica, sans-serif;\">\"Quỳnh búp bê\" Phương Oanh ra sao sau tuyên bố tạm dừng đóng phim?</span></h1>\n<p style=\"text-align:start;\"><span style=\"color: rgb(153,153,153);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Thứ Sáu, ngày 07/08/2020 04:15 AM (GMT+7)</span></p>\n<p style=\"text-align:start;\"><br><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Nữ diễn viên khoe loạt ảnh gợi cảm nhưng lại \"than vãn\" khiến nhiều người chú ý.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">Sự kiện:</span> <a href=\"https://www.24h.com.vn/ngoi-sao-dien-anh-viet-nam-c74e1226.html\" target=\"_self\"><span style=\"color: rgb(55,139,54);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><ins>Ngôi sao điện ảnh Việt Nam</ins></span></a><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">,</span> <a href=\"https://www.24h.com.vn/hau-truong-nhung-ngoi-sao-c74e1231.html\" target=\"_self\"><span style=\"color: rgb(55,139,54);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><ins>Hậu trường những ngôi sao</ins></span></a><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 13px;font-family: Arial, Helvetica, sans-serif;\">,</span> <a href=\"https://www.24h.com.vn/phuong-oanh-c731e5638.html\" target=\"_self\"><span style=\"color: rgb(55,139,54);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><ins>Phương Oanh Quỳnh búp bê</ins></span></a></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Phương Oanh tạo dấu ấn với vai diễn chính trong \"Quỳnh búp bê\". Kế đó, cô liên tiếp tạo ấn tượng khi thoát xác khỏi nhân vật \"gái ngành\" để hóa thân thành một cô giáo thôn quê trong \"Cô gái nhà người ta\". Vai diễn mới nhất của</span> <a href=\"https://www.24h.com.vn/phuong-oanh-c729e5638.html\" target=\"_self\"><span style=\"color: rgb(0,0,255);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Phương Oanh</span></a> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">đang được phát sóng lại là một thiên kim tiểu thư Thiên Trang của \"Lựa chọn số phận\".</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-06/5333ibsq-159618727915118779-1596700117-566-width660height405.jpg\" alt=\"\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Phương Oanh trong phim \"Lựa chọn số phận\"</em></span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Khi đang ở độ chín của sự nghiệp, Phương Oanh bất ngờ tuyên bố tạm dừng đóng phim. Cô muốn nghỉ ngơi, tái tạo cảm xúc để trở lại với một điều mới mẻ hơn.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Nhiều người tiếc nuối khi \"Quỳnh búp bê\" tạm dừng sự nghiệp diễn viên. Vậy nhưng, khán giả vẫn đang được gặp cô thông qua vai diễn trong \"Lựa chọn số phận\" đang được phát sóng. Tuy không hứa trước thời điểm nào sẽ trở lại màn ảnh sau vai tiểu thư Thiên Trang nhưng Phương Oanh cũng bật mí nếu có một vai diễn \"đo ni đóng giày\" khiến cô thấy tâm đắc, cô sẽ gật đầu đồng ý. Ngoài ra thời gian này, người đẹp tập trung cho công việc kinh doanh nhiều hơn.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Tuyên bố tạm dừng sự nghiệp đóng phim nhưng Phương Oanh vẫn thường xuyên tương tác cùng người hâm mộ thông qua trang cá nhân. Chính vì vậy, công chúng luôn được thấy một Phương Oanh gợi cảm, quyến rũ với những trang phục khoe được vẻ đẹp cơ thể. Nữ diễn viên chuộng các mốt bó, tôn vóc dáng \"đồng hồ cát\" hoặc các thiết kế hở ngực. Đôi chân thon dài giúp cô tự tin với các mẫu váy ngắn, phá cách.</span></p>\n<p style=\"text-align:start;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\">Mới đây Phương Oanh chia sẻ loạt ảnh selfie, khoe vẻ gợi cảm nhưng lại thú nhận \"mũm mĩm\" vì tăng cân. Phía dưới bình luận, bạn bè và người hâm mộ dành nhiều lời khen ngợi cho nữ diễn viên.</span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-06/116867368_3388952921165737_52840223967274457_o-1596693619-383-width720height960.jpg\" alt=\"\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-06/116214594_3388953031165726_1627517895168639447_o-1596693619-663-width720height960.jpg\" alt=\"\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Phương Oanh khoe thân hình gợi cảm trong bộ đầm bó sát nhưng lại than tăng cân</em></span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-06/untitled-4-1596698703-430-width660height476.jpg\" alt=\"\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Nữ diễn viên được cư dân mạng khen ngợi xinh đẹp, quyến rũ</em></span></p>\n<p style=\"text-align:center;\"></p>\n<img src=\"https://cdn.24h.com.vn/upload/3-2020/images/2020-08-06/106471513_3299819443412419_4198273490560753811_o-1596702001-987-width960height640.jpg\" alt=\"\" style=\"height: ;width: \"/>\n<p style=\"text-align:center;\"><span style=\"color: rgb(37,37,37);background-color: rgb(255,255,255);font-size: 15px;font-family: Arial, Helvetica, sans-serif;\"><em>Phương Oanh tập trung cho công việc kinh doanh, tập luyện hình thể và chăm sóc sắc đẹp</em></span>&nbsp;</p>\n",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "admin",
+      "password": "admin",
+      "fullname": "Khúc Thành Quang",
+      "avatar": "https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg",
+      "access": "Administrator",
+      "id": 4
+    }
+  ],
+  "contact": [
+    {
+      "guestName": "Quang Khuc",
+      "email": "quangktph07731@fpt.edu.com",
+      "tittle": "tiêu đề 1",
+      "detail": "Khong có j cả",
+      "id": 1
+    },
+    {
+      "guestName": "Hoàng hương Giang",
+      "email": "giang@gmail.com",
+      "tittle": "tiêu đề 1",
+      "detail": "adaadada",
+      "id": 2
+    }
+  ],
+  "thanhtoan": [
+    {
+      "guestName": "Khúc Quang",
+      "address": "ada",
+      "note": "ada",
+      "detailCart": "-----[* MẮT CÁ NGỪ ĐẠI DƯƠNG - ĐẶC SẢN PHÚ YÊN - 1 x 100000 VNĐ ] ----------[* BẮP CẢI TÍM ĐÀ LẠT - 1 x 55000 VNĐ ] -----",
+      "tong": 205000,
+      "id": 3
+    },
+    {
+      "guestName": "quang",
+      "address": "s",
+      "note": "s",
+      "detailCart": "-----[* CAM KHE MÂY VIETGAP TÚI 1KG - 1 x 68000 VNĐ ] -----",
+      "tong": 118000,
+      "id": 4
+    },
+    {
+      "guestName": "Khúc Quang",
+      "address": "adadaaada",
+      "note": "adaada",
+      "detailCart": "-----[* MĂNG CỤT VIETGAP TÚI 1KG - 2 x 85000 VNĐ ] -----",
+      "tong": 135000,
+      "id": 5
+    },
+    {
+      "guestName": "khúc thành quang",
+      "address": "hà nội",
+      "note": "adaada",
+      "detailCart": "-----[* MẮT CÁ NGỪ ĐẠI DƯƠNG - ĐẶC SẢN NHẬT BẢN - 2 x 100000 VNĐ ] -----",
+      "tong": 150000,
+      "id": 6
+    },
+    {
+      "guestName": "Khúc Quang",
+      "address": "ada",
+      "note": "àa",
+      "detailCart": "-----[* GẠO HỮU CƠ ONG BIỂN – THANH XUÂN LÀ SỨC KHỎE - 1 x 56000 VNĐ ] -----",
+      "tong": 106000,
+      "id": 7
+    }
+  ]
+}

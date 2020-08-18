@@ -1,0 +1,19 @@
+img.img-fluid {
+    height: 200px;
+    width: 100%;
+}
+.alert.alert-success {
+    position: fixed;
+    z-index: 999999;
+    top: 55px;
+    right: 0;
+}
+.animated.bounce.infinite {
+    position: fixed;
+    z-index: 999999999;
+    top: 50px;
+    right: -5px;
+}
+.carousel.carousel-fade.z-depth-1 {
+    height: 35rem;
+}
