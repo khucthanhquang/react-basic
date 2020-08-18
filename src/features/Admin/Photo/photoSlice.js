@@ -31,6 +31,9 @@ const photo = createSlice({
         paginationSuccess: (state, action) => {
             state.paginationPhoto = action.payload
         },
+        paginationHomePageSuccess: (state, action) => {
+            state.paginationPhoto = action.payload
+        },
         searchSuccess: (state, action) => {
             state.valueSearch = action.payload
         },
@@ -41,15 +44,26 @@ const photo = createSlice({
 })
 
 const { reducer, actions } = photo;
-export const { getPhotoSuccess, addPhotoSuccess, removePhotoSuccess, editPhotoSuccess, paginationSuccess, searchSuccess, filterPriceSuccess } = actions;
+export const { getPhotoSuccess, addPhotoSuccess, removePhotoSuccess, editPhotoSuccess, paginationSuccess, paginationHomePageSuccess, searchSuccess, filterPriceSuccess } = actions;
 export default reducer;
 
-// Asynchronous thunk action phân trang
+// Asynchronous thunk action phân trang Admin
 export function fetchPhotosPagination(currentPage) {
     return async dispatch => {
         try {
             const { data } = await apiRequestPhoto.pagination(currentPage);
             dispatch(paginationSuccess(data))
+        } catch (error) {
+            console.log(error)
+        }
+    }
+}
+// Asynchronous thunk action phân trang HomePage
+export function fetchPhotosPaginationHomePage(category, currentPage) {
+    return async dispatch => {
+        try {
+            const { data } = await apiRequestPhoto.paginationForHomePage(category, currentPage);
+            dispatch(paginationHomePageSuccess(data))
         } catch (error) {
             console.log(error)
         }
@@ -87,8 +101,8 @@ export function fetchPhotos() {
 export function addPhoto(photo) {
     return async dispatch => {
         try {
-            const { data } = await apiRequestPhoto.create(photo)
-            dispatch(addPhotoSuccess(data))
+            await apiRequestPhoto.create(photo)
+            dispatch(addPhotoSuccess(photo))
         } catch (error) {
             console.log(error)
         }

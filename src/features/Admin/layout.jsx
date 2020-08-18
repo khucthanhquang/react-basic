@@ -48,6 +48,7 @@ function LayoutAdmin(props) {
         }
         getPostCategories()
     })
+    
     useEffect(() => {
         const getPost = async () => {
             await dispatch(fetchPosts())

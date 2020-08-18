@@ -23,6 +23,9 @@ const remove = id => {
 const pagination = (currentPage) => {
     return http.get(`/photo/?_limit=4&_page=${currentPage}`);
 };
+const paginationForHomePage = (category, currentPage) => {
+    return http.get(`/category/${category}/photo/?_limit=6&_page=${currentPage}`);
+};
 
 const search = (value) => {
     return http.get(`/photo/?q=${value}`);
@@ -39,6 +42,7 @@ export default {
     update,
     remove,
     pagination,
+    paginationForHomePage,
     search,
     filterPriceApi
 };

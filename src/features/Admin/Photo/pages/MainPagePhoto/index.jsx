@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link, useHistory } from 'react-router-dom';
 
-import { fetchPhotos, fetchPhotosPagination, fetchPhotosSearch } from '../../photoSlice'
+import { fetchPhotosPagination, fetchPhotosSearch } from '../../photoSlice'
 import PhotoCard from '../../components/PhotoCard';
 
 
@@ -18,34 +18,29 @@ function MainPagePhoto(props) {
     const history = useHistory();
 
     const photos = useSelector(state => state.photo.photos);
+
     // HÀM XỬ LÝ PHÂN TRANG
     const limitPage = Math.trunc(photos.length / 4);
     const photosPagination = useSelector(state => state.photo.paginationPhoto);
     const [page, setPage] = useState(1);
 
-    const [searchValue, setSearchValue] = useState('');
-
     useEffect(() => {
         dispatch(fetchPhotosPagination(page))
     }, [page])
 
-    useEffect(() => {
-        dispatch(fetchPhotosSearch(searchValue))
-    }, [searchValue])
-
-
-
     function onHandleChangPage(currentPage) {
         setPage(currentPage)
     }
-
     var pagination = [];
     for (let i = 0; i <= limitPage; i++) {
-        pagination.push(<li className="page-item"><button className="page-link" onClick={() => onHandleChangPage(i + 1)}>{i + 1}</button></li>);
+        pagination.push(<li key={i} className="page-item"><button className="page-link" onClick={() => onHandleChangPage(i + 1)}>{i + 1}</button></li>);
     }
-    // HÀM XỬ LÝ PHÂN TRANG
 
     // HÀM XỬ LÝ SEARCH
+    const [searchValue, setSearchValue] = useState('');
+    useEffect(() => {
+        dispatch(fetchPhotosSearch(searchValue))
+    }, [searchValue])
     function changeSearch(e) {
         if (e.target.value == '') return;
         setSearchValue(e.target.value);
@@ -78,7 +73,9 @@ function MainPagePhoto(props) {
                     {
                         photosPagination.map(photo => (
                             <PhotoCard
+                                key={photo.id}
                                 photo={photo}
+                                page={page}
                             />
                         ))
                     }

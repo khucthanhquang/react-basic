@@ -10,8 +10,8 @@ import Footer from '../../components/Main/Footer';
 import NotFound from '../../components/NotFound';
 import { useDispatch } from 'react-redux';
 
-import { fetchCategories } from '../../features/Admin/Category/categorySlice'
-import { fetchPhotos } from '../../features/Admin/Photo/photoSlice'
+import { fetchCategories } from '../Admin/Category/categorySlice'
+import { fetchPhotos } from '../Admin/Photo/photoSlice'
 import { getItemToStorage } from './cartSlice'
 
 import { fetchPosts } from '../Admin/Posts/postsSlice'
@@ -54,15 +54,15 @@ function LayoutMain(props) {
             await dispatch(fetchPostCategory())
         }
         getPostCategory()
-    },[])
-     // Lấy danh sách posts
+    }, [])
+    // Lấy danh sách posts
     useEffect(() => {
         const getPosts = async () => {
             await dispatch(fetchPosts())
         }
         getPosts()
-    },[])
-     // Lấy danh sách các item trong cart
+    }, [])
+    // Lấy danh sách các item trong cart
     useEffect(() => {
         dispatch(getItemToStorage())
     }, [])

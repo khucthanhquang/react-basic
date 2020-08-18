@@ -2,115 +2,147 @@
   "category": [
     {
       "id": 2,
-      "nameCategory": "Bộ ảnh troll 1",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596740843/react-category-photo/received_251494805566204_d3q2gj.png",
-      "descCategory": "Những bức ảnh troll tổng hợp"
+      "nameCategory": "Animals",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597759992/react-category-photo/logoani_cece4q.jpg",
+      "descCategory": "Những bức ảnh về động vật"
     },
     {
       "id": 5,
-      "nameCategory": "Bộ ảnh troll 2",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584096/react-category-photo/received_105639537042043_mbzb0p.jpg",
-      "descCategory": "Những bức ảnh troll tổng hợp 2"
-    },
-    {
-      "id": 6,
-      "nameCategory": "Bộ ảnh troll 3",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584148/react-category-photo/received_813368332155600_ialbie.jpg",
-      "descCategory": "Những bức ảnh troll tổng hợp 3"
-    },
-    {
-      "id": 7,
-      "nameCategory": "Bộ ảnh troll 4",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596584195/react-category-photo/received_249232539096533_tuh9e9.jpg",
-      "descCategory": "Những bức ảnh troll tổng hợp 5"
-    },
-    {
-      "nameCategory": "danh mục test",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597023399/react-category-photo/received_706916316359165_nnkfix.png",
-      "descCategory": "Những bức ảnh đẹp của teen 18+",
-      "id": 8
+      "nameCategory": "People",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760127/react-category-photo/logo_fisw70.jpg",
+      "descCategory": "Những bức ảnh về con người"
     }
   ],
   "photo": [
     {
       "id": 1,
-      "namePhoto": "Ảnh troll 1",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596583456/react-category-photo/received_484952018687129_klq6ii.jpg",
+      "namePhoto": "Husky",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760264/react-category-photo/1_qy2kyi.jpg",
       "author": "thanhquang",
       "price": 35000,
-      "desc": "Thật buồn cười",
-      "detail": "Bộ ảnh Troll Comment Facebook bá đạo nhất",
+      "desc": "Hình ảnh chú chó husky",
+      "detail": "Hình ảnh chú chó husky đang nằm dưới ánh nắng đẹp buổi sớm",
       "categoryId": "2"
     },
     {
       "id": 2,
-      "namePhoto": "Ảnh troll 2",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596583571/react-category-photo/received_706916316359165_o6dcjv.png",
+      "namePhoto": "Chú hổ hoang dã",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760337/react-category-photo/2_pwevex.jpg",
       "author": "thanhquang",
       "price": 30000,
-      "desc": "Chả có gì để nói",
-      "detail": "Bộ ảnh Troll Comment Facebook bá đạo nhất",
-      "categoryId": "6"
+      "desc": "Hình ảnh hổ hoang dã",
+      "detail": "Chú hổ hoang dã ngoài tự nhiên được photographer ghi lại",
+      "categoryId": "2"
     },
     {
       "id": 6,
-      "namePhoto": "Mèo con tinh nghịch",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528586/react-category-photo/71092321_1308887659272853_510965082314768384_n_wrrgmx.jpg",
-      "author": "thanhquang",
+      "namePhoto": "Chú thỏ con hoang dã",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760510/react-category-photo/3_i041wi.jpg",
+      "author": "huonggiang",
       "price": 15000,
-      "desc": "Mèo con vui vẻ",
-      "detail": "Những chú mèo troll cực vui",
-      "categoryId": "5"
+      "desc": "Chú thỏ con xinh xắn ngoài tự nhiên",
+      "detail": "Bức ảnh chú thỏ con được chụp ngoài tự nhiên bời nhiếp ảnh gia huonggiang",
+      "categoryId": "2"
     },
     {
       "id": 8,
-      "namePhoto": "Đoán xem",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528664/react-category-photo/received_251494805566204_lqtp0u.png",
+      "namePhoto": "Hai chú ngựa :v",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760605/react-category-photo/4_sazqjc.jpg",
       "author": "danhptt",
       "price": 20000,
-      "desc": "Đoán xem tui đang làm gì",
-      "detail": "Một chú chó thật hài hước",
+      "desc": "Hai chú ngựa đang gặm cỏ",
+      "detail": "Hình ảnh 2 chú ngựa đang gặm cỏ hoang dã ngoài tự nhiên",
       "categoryId": "2"
     },
     {
       "id": 9,
-      "namePhoto": "Anh bạn này bị sao ta :v",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1596528681/react-category-photo/received_327061084682363_pzp8hu.png",
+      "namePhoto": "Chim Keel Billed Toucan",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597760674/react-category-photo/5_genuid.jpg",
       "author": "huykt",
       "price": 25000,
-      "desc": "Ảnh troll bạn cùng phòng",
-      "detail": "Anh bạn này bị sao đây ta ?",
+      "desc": "Loài chim có cái mỏ thật đặc biệt",
+      "detail": "Chim Keel Billed Toucan là một trong những loài chim có hình dáng gây kinh ngạc nhất thế giới, sống trong các cánh rừng ở Trung và Nam Mỹ",
       "categoryId": "2"
     },
     {
-      "namePhoto": "Photo test",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597018838/react-category-photo/received_855517784607321_eelva7.jpg",
-      "categoryId": "7",
+      "id": 10,
+      "namePhoto": "Loài thằn lằn Nam Mỹ",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761031/react-category-photo/6_fhgido.jpg",
       "author": "thanhquang",
       "price": 30000,
-      "desc": "Không có gì mô tả ha",
-      "detail": "Chi tiết ảnh này",
-      "id": 10
+      "desc": "Loài thằn lằn chuyên ăn kiến",
+      "detail": "Hình ảnh bắt gặp loài thằn lằn hiến ở Nam Mỹ",
+      "categoryId": "2"
     },
     {
-      "namePhoto": "photo test",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597023427/react-category-photo/received_335254533797040_auwldy.jpg",
-      "categoryId": "8",
+      "id": 11,
+      "namePhoto": "Cô gái tóc vàng",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761402/react-category-photo/1_xhjmkx.jpg",
       "author": "thanhquang",
       "price": 20000,
-      "desc": "ưqe",
-      "detail": "qeqeq",
-      "id": 11
+      "desc": "Một ý tưởng mới chăng :v",
+      "detail": "Hình ảnh cô gái tóc vàng ",
+      "categoryId": "5"
     },
     {
       "id": 12,
-      "namePhoto": "Photo test",
-      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597630688/react-category-photo/1_ecnwhn.png",
+      "namePhoto": "Hai người họ vui quá",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761464/react-category-photo/2_w1dhzx.jpg",
       "author": "thanhquang",
       "price": 60000,
-      "desc": "sadasđa",
-      "detail": "adad",
-      "categoryId": "7"
+      "desc": "Hai người họ cười vui vẻ vậy",
+      "detail": "Đố các bạn biết họ cười vì điều gì ?",
+      "categoryId": "5"
+    },
+    {
+      "namePhoto": "Teamwork",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761555/react-category-photo/3_zknan6.jpg",
+      "categoryId": "5",
+      "author": "thanhquang",
+      "price": 20000,
+      "desc": "Teamwork vui nhộn",
+      "detail": "Hình ảnh teamwork của mọi người khi thành công",
+      "id": 13
+    },
+    {
+      "namePhoto": "Nụ cười tươi rói",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761650/react-category-photo/4_rubgdp.jpg",
+      "categoryId": "5",
+      "author": "huonggiang",
+      "price": 30000,
+      "desc": "Nụ cười đẹp của cô gái",
+      "detail": "Hình ảnh cô gái với mái tóc bồng bềnh và nụ cười tỏa nắng",
+      "id": 14
+    },
+    {
+      "namePhoto": "Nụ cười của anh chàng da đen",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761712/react-category-photo/5_qwgr1d.jpg",
+      "categoryId": "5",
+      "author": "thanhquang",
+      "price": 34000,
+      "desc": "Nụ cười vui vẻ của anh da đen",
+      "detail": "Anh da đen vui vẻ, không biết anh đang cười vì điều gì",
+      "id": 15
+    },
+    {
+      "namePhoto": "Hợp tác cùng thành công",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761808/react-category-photo/7_hbq2qy.jpg",
+      "categoryId": "5",
+      "author": "thanhquang",
+      "price": 60000,
+      "desc": "Nỗ lực cùng thành công",
+      "detail": "Hình ảnh teamwork cùng nhau hợp tác thành công",
+      "id": 17
+    },
+    {
+      "namePhoto": "Like cho bạn !",
+      "image": "https://res.cloudinary.com/reactjs-fileupload/image/upload/v1597761926/react-category-photo/8_trifse.jpg",
+      "categoryId": "5",
+      "author": "huyptt",
+      "price": 30000,
+      "desc": "Like ý tưởng hay ho của bạn nhé",
+      "detail": "Một ý tưởng hay đó, like cho bạn :v",
+      "id": 18
     }
   ],
   "post_category": [

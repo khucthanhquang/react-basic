@@ -9,32 +9,15 @@ import { fetchPhotosSearch, filterPrice } from '../../../../Admin/Photo/photoSli
 
 
 function Tab(props) {
-
-    const [valueSearch, setValueSearch] = useState('');
-
-    useEffect(() => {
-        dispatch(fetchPhotosSearch(valueSearch))
-    }, [valueSearch]);
+    const history = useHistory();
+    const dispatch = useDispatch();
 
     const categories = useSelector(state => state.category.categories);
     const photos = useSelector(state => state.photo.photos);
-
+// console.log(photos)
     const [dataPhoto, setDataPhoto] = useState(photos);
-    const history = useHistory();
 
-    const [item, setAddItemsToStore] = useState({});
-
-    const [isAddItem, setIsAddItem] = useState(false);
-
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        const updateCartbeforeAdd = async () => {
-            dispatch(getItemToStorage())
-        }
-        updateCartbeforeAdd()
-    }, [item]);
-
+    // Chọn danh mục
     function handleSelectOne(id) {
         const newData = [...photos];
         const newPhotoArr = [];
@@ -46,12 +29,20 @@ function Tab(props) {
         }
         setDataPhoto(newPhotoArr)
     }
-
+    // Chọn tất cả
     function handleSelectAll() {
         setDataPhoto(photos)
     }
 
     // XỬ LÝ GIỎ HÀNG
+    const [item, setAddItemsToStore] = useState({});
+    const [isAddItem, setIsAddItem] = useState(false);
+    useEffect(() => {
+        const updateCartbeforeAdd = async () => {
+            dispatch(getItemToStorage())
+        }
+        updateCartbeforeAdd()
+    }, [item]);
     const keyLocalStorage = 'CartStorage';
     const allPhoto = useSelector(state => state.photo.photos);
     function addToCart(id) {
@@ -103,6 +94,10 @@ function Tab(props) {
     }
 
     // SEARCH
+    const [valueSearch, setValueSearch] = useState('');
+    useEffect(() => {
+        dispatch(fetchPhotosSearch(valueSearch))
+    }, [valueSearch]);
     const resValueSearch = useSelector(state => state.photo.valueSearch);
     function fullTextSearch(e) {
         let search = e.target.value;
@@ -111,6 +106,7 @@ function Tab(props) {
         else { setDataPhoto(resValueSearch) }
 
     }
+
     // FILTER
     useEffect(() => {
         const filterPriceRes = async () => {

@@ -75,7 +75,7 @@ function DetailPhoto(props) {
                             <small>{currentPhoto.detail}.</small>
                         </p>
                         <hr className="my-2" />
-                        <MDBBtn size="md" >Tải về ngay<MDBIcon icon="cloud-download-alt" className="ml-2" /></MDBBtn>
+                        <MDBBtn size="md" download={currentPhoto.image} href="#">Tải về ngay<MDBIcon icon="cloud-download-alt" className="ml-2" /></MDBBtn>
                     </MDBJumbotron>
                 </div>
             </div>

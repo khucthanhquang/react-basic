@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { removePhoto } from '../../photoSlice'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { fetchPhotosPagination } from '../../../../Admin/Photo/photoSlice';
 
 PhotoCard.propTypes = {
 
@@ -10,16 +12,23 @@ PhotoCard.propTypes = {
 
 function PhotoCard(props) {
 
-    const { photo } = props;
+    const { photo, page } = props;
     const categories = useSelector(state => state.category.categories);
-    const dispatch = useDispatch()
-    const history = useHistory()
+    const [removeState, setRemoveState] = useState(false);
+
+    useEffect(() => {
+        dispatch(fetchPhotosPagination(page))
+    }, [removeState])
+
+    const dispatch = useDispatch();
+    const history = useHistory();
 
     function handleRemovePhoto(id) {
         let cf = window.confirm('Bạn thực sự muốn xóa ?');
         if (cf) {
             setTimeout(() => {
-                dispatch(removePhoto(id))
+                setRemoveState(id);
+                dispatch(removePhoto(id));
             }, 1000);
         }
     }

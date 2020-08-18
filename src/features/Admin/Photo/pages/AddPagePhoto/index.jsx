@@ -35,14 +35,12 @@ function AddPagePhoto(props) {
     }
 
 
-    function onHandleSubmit(data) {
+    async function onHandleSubmit(data) {
         const newData = data;
         newData.image = image;
         newData.price = Number(data.price)
-        setTimeout(() => {
-            dispatch(addPhoto(newData))
-            history.push('/admin/photo');
-        }, 1000);
+        await dispatch(addPhoto(newData));
+        history.push('/admin/photo');
     }
 
     return (
@@ -84,14 +82,14 @@ function AddPagePhoto(props) {
                 <div className="form-group">
                     <label htmlFor="">Danh mục <span style={{ color: 'red' }}><small>*</small></span></label>
                     <select
-                        class="form-control"
+                        className="form-control"
                         name="categoryId"
                         className="form-control"
                         ref={register({ required: true })}>
                         <option value="">--- Mời bạn chọn danh mục photo ---</option>
                         {
                             categories.map((category) =>
-                                <option value={category.id}>{category.nameCategory}</option>
+                                <option key={category.id} value={category.id}>{category.nameCategory}</option>
                             )
                         }
                     </select>
@@ -141,8 +139,8 @@ function AddPagePhoto(props) {
                 </div>
 
                 <button type="submit" className="btn btn-primary">
-                    {handleSubmit && <div class="spinner-border text-primary spinner-border-sm" role="status">
-                        <span class="sr-only">Loading...</span>
+                    {handleSubmit && <div className="spinner-border text-primary spinner-border-sm" role="status">
+                        <span className="sr-only">Loading...</span>
                     </div>}
                 Thêm photo</button>
             </form>
