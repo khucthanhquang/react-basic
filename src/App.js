@@ -17,8 +17,6 @@ const config = {
 };
 firebase.initializeApp(config);
 
-
-// Lazy load - Code splitting
 const LayoutAdmin = React.lazy(() => import('./features/Admin/layout.jsx'));
 const LayoutMain = React.lazy(() => import('./features/Main/layout.jsx'));
 // const Auth = React.lazy(() => import('./features/Auth/pages/LoginPage'));
